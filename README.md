@@ -1,6 +1,6 @@
 # Codelandia - Challenge 02
 
-Hey! 👋
+Hey!
 
 This is my solution for the Challenge 02 of  [Codelândia - Iuri Silva](https://discord.com/channels/853354677411905578/855846897854971914). 
 
