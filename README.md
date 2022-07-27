@@ -15,7 +15,7 @@ The challenge is to build a responsive page with mobile and desktop versions, wh
 ## 📱 Mobile Version 
 ![Desktop Version](https://github.com/ragazziana/jordan-project/blob/main/design/Shop%20-%20Home%20(Mobile).png?raw=true)
 
-# Tools and Technologies
+## 🔧 Tools and Technologies
 
 1. CSS
 2. HTML
