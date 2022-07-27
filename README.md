@@ -17,20 +17,13 @@ The challenge is to build a responsive page with mobile and desktop versions, wh
 
 # Tools and Technologies
 
-✅ CSS
-
-✅ HTML
-
-✅ Javascript
-
-✅ Sass
-
-✅ Flexbox
-
-✅ Media Queries
-
-✅ CSS Variables
-
+1. CSS
+2. HTML
+3. Javascript
+4. Sass
+5. Flexbox
+6. Media Queries
+7. CSS Variables
 
 ## Author
 👩‍💻  [@ragazziana](https://github.com/ragazziana)
