@@ -1,7 +1,9 @@
 
 ## Codelandia - Challenge 02
 
-This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channels/853354677411905578/855846897854971914). The challenge is to build a responsive page with mobile and desktop version, where you can see difrent designs of Jordans Shoes.
+This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channels/853354677411905578/855846897854971914). 
+
+The challenge is to build a responsive page with mobile and desktop version, where you can see difrent designs of Jordans Shoes.
 
 💻 [Here is the live version of my solution](https://ragazziana.github.io/jordan-project/)
 
