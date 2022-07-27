@@ -1,0 +1,236 @@
+body, html {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-site);
+  font-family: var(--ff-main);
+  font-size: var(--fs-main);
+  color: var(--title);
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input {
+  border: 0;
+}
+
+button:focus,
+input:focus {
+  border: 0;
+}
+
+:root {
+  --bg-site: #f6f6f6;
+  --bg-card: #ebe9ea;
+  --white: #fff;
+  --title: #181818;
+  --text: #474747;
+  font-size: 62.5%; /* 1rem = 10px */
+  --ff-main: "Montserrat", sans-serif;
+  --fs-main: 1.6rem;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+
+.jordans__promo {
+  background-color: var(--title);
+  padding: 1.5rem 5.7rem;
+  font-weight: var(--fw-light);
+  text-align: center;
+  line-height: 196.19%;
+  color: var(--white);
+}
+
+.jordans__logo {
+  background-color: var(--bg-site);
+  padding: 0.6rem 12.7rem;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  font-size: 2.4rem;
+  line-height: 196.19%;
+  color: var(--title);
+}
+
+.jordans-hero {
+  background-image: url(../images/wallpaper.png);
+  text-align: left;
+  padding: 12.2rem 3.7rem 12.2rem 2rem;
+  height: 377px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jordans-hero__title {
+  color: var(--white);
+  font-weight: var(--fw-bold);
+  font-size: 2.8rem;
+  line-height: 34px;
+}
+
+.jordans-hero__description {
+  color: var(--white);
+  font-weight: var(--fw-medium);
+  font-size: 1.6rem;
+  line-height: 180%;
+}
+
+.jordans-main__destaques {
+  margin-top: 5rem;
+  font-weight: var(--fw-semi-bold);
+  font-size: 2.8rem;
+  line-height: 196.19%;
+}
+
+.jordans-main__description {
+  margin-top: 0.5rem;
+  margin-bottom: 5.9rem;
+  font-weight: var(--fw-medium);
+  font-size: 1.6rem;
+  line-height: 180%;
+}
+
+main {
+  text-align: center;
+}
+
+.jordans-main__first-row,
+.jordans-main__second-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jordan-main-shoes {
+  padding: 7.6rem 6.2rem;
+  width: 100%;
+  max-height: 30.2rem;
+  max-width: 37.4rem;
+  background-color: var(--bg-card);
+  margin-bottom: 3rem;
+}
+
+.jordan-main-shoes:hover img {
+  transform: scale(1.6);
+  transition: 1s all ease;
+}
+
+.jordan-main-shoes span {
+  font-size: 0.85rem;
+  font-weight: var(--fw-semi-bold);
+  top: 80px;
+  position: relative;
+  transition: 1s all ease;
+  opacity: 0;
+}
+
+.jordan-main-shoes:hover span {
+  opacity: 1;
+  top: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--title);
+  padding: 1.2rem 7.7rem;
+}
+
+.jordans-footer__copyright {
+  color: var(--white);
+  font-weight: var(--medium);
+  font-size: 1.8rem;
+  line-height: 196.19%;
+}
+
+.jordans-footer__links {
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .jordans-hero {
+    background-image: url(../images/wallpaper.png);
+    text-align: left;
+    padding: 12.9rem 0 12.1rem 10rem;
+    min-height: 378px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jordans-hero__title {
+    margin-bottom: 1.9rem;
+    font-size: 3.2rem;
+  }
+  .jordans-hero__description {
+    max-width: 46rem;
+    font-size: 1.8rem;
+  }
+  .jordans-main__destaques {
+    font-size: 3.2rem;
+  }
+  .jordans-main__description {
+    font-size: 1.8rem;
+  }
+  .jordans-main__first-row,
+.jordans-main__second-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .jordan-main-shoes {
+    width: 100%;
+    max-height: 30.2rem;
+    max-width: 30rem;
+    margin-right: 1.3rem;
+    margin-bottom: 3.9rem;
+  }
+  footer {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 937px) and (max-width: 1251px) {
+  .jordan-main-shoes {
+    width: 100%;
+    max-height: 35.2rem;
+    max-width: 42.4rem;
+  }
+}/*# sourceMappingURL=style.css.map */

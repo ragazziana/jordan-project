@@ -1,0 +1,57 @@
+@media (min-width: 768px){
+
+.jordans-hero{
+    background-image: url(../images/wallpaper.png);
+    text-align: left;
+    padding: 12.9rem 0 12.1rem 10rem;
+    min-height: 378px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jordans-hero__title{
+    margin-bottom: 1.9rem;
+    font-size: 3.2rem;
+}
+
+.jordans-hero__description{
+    max-width: 46rem;
+    font-size: 1.8rem;
+}
+
+.jordans-main__destaques{
+    font-size: 3.2rem;
+}
+
+.jordans-main__description{
+    font-size: 1.8rem;
+}
+
+.jordans-main__first-row,
+.jordans-main__second-row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.jordan-main-shoes{
+    width: 100%;
+    max-height: 30.2rem;
+    max-width: 30rem;
+    margin-right: 1.3rem;
+    margin-bottom: 3.9rem;
+}
+
+footer{
+    margin-top: 3rem;
+}
+}
+
+@media (min-width: 937px) and (max-width: 1251px){
+
+    .jordan-main-shoes{
+        width: 100%;
+        max-height: 35.2rem;
+        max-width: 42.4rem;
+    }
+}

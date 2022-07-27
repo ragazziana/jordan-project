@@ -1,0 +1,114 @@
+.jordans__promo{
+    background-color: var(--title);
+    padding: 1.5rem 5.7rem;
+    font-weight: var(--fw-light);
+    text-align: center;
+    line-height: 196.19%;
+    color: var(--white);
+}
+
+.jordans__logo{
+    background-color: var(--bg-site);
+    padding: .6rem 12.7rem;
+    text-align: center;
+    font-weight: var(--fw-bold);
+    font-size: 2.4rem;
+    line-height: 196.19%;
+    color: var(--title);
+}
+
+.jordans-hero{
+    background-image: url(../images/wallpaper.png);
+    text-align: left;
+    padding: 12.2rem 3.7rem 12.2rem 2rem;
+    height: 377px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jordans-hero__title{
+    color: var(--white);
+    font-weight: var(--fw-bold);
+    font-size: 2.8rem;
+    line-height: 34px;
+}
+
+.jordans-hero__description{
+    color: var(--white);
+    font-weight: var(--fw-medium);
+    font-size: 1.6rem;
+    line-height: 180%;
+}
+
+.jordans-main__destaques{
+    margin-top: 5rem;
+    font-weight: var(--fw-semi-bold);
+    font-size: 2.8rem;
+    line-height: 196.19%;
+}
+
+.jordans-main__description{
+    margin-top: .5rem;
+    margin-bottom: 5.9rem;
+    font-weight: var(--fw-medium);
+    font-size: 1.6rem;
+    line-height: 180%;
+}
+
+main{
+    text-align: center;
+}
+
+.jordans-main__first-row,
+.jordans-main__second-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jordan-main-shoes{
+    padding: 7.6rem 6.2rem;
+    width: 100%;
+    max-height: 30.2rem;
+    max-width: 37.4rem;
+    background-color: var(--bg-card);
+    margin-bottom: 3rem;
+}
+
+.jordan-main-shoes:hover img{
+    transform: scale(1.6);
+    transition: 1s all ease;
+}
+
+.jordan-main-shoes span{
+    font-size: 0.85rem;
+    font-weight: var(--fw-semi-bold);
+    top: 80px;
+    position: relative;
+    transition: 1s all ease;
+    opacity: 0;
+}
+
+.jordan-main-shoes:hover span{
+    opacity: 1;
+    top: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--title);
+    padding: 1.2rem 7.7rem;
+}
+
+.jordans-footer__copyright{
+    color: var(--white);
+    font-weight: var(--medium);
+    font-size: 1.8rem;
+    line-height: 196.19%;
+}
+
+.jordans-footer__links{
+    color: var(--white);
+}
