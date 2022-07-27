@@ -8,11 +8,11 @@ The challenge is to build a responsive page with mobile and desktop versions, wh
 
 ➡️ [Here is the live version of my solution](https://ragazziana.github.io/jordan-project/)
 
-## Desktop Version 💻
+## 💻 Desktop Version 
 
 ![Desktop Version](https://github.com/ragazziana/jordan-project/blob/main/design/Index%20-%20%20-%202022-07-27%20at%201.14.22%20PM.jpg?raw=true)
 
-## Mobile Version 📱
+## 📱 Mobile Version 
 ![Desktop Version](https://github.com/ragazziana/jordan-project/blob/main/design/Shop%20-%20Home%20(Mobile).png?raw=true)
 
 # Tools and Technologies
